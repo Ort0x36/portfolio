@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+/* Resetando CSS. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Variáveis Globais. */
+:root {
+  --main-bg-color: #ffffff;
+  --nav-link-color: rgb(173, 98, 27);
+}
+
+
+/* Configurações do corpo da página. */
+body {
+  background: var(--main-bg-color);
+  width: 930px;
+  margin: 20px auto;
+  min-width: 320px;
+  min-height: 40vh;
+}
+
+
+main.container {
+  width: 100%;
+}
+
+
+.box-inside {
+  width: 90%;
+  margin: auto;
+}
+
+
+.img-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+
+img[src="assets/img/reddit.png"] {
+  width: 30%;
+  border-radius: 50%;
+}
+
+
+.content-head {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+
+#title {
+  font-family: Poppins;
+  font-size: 50px;
+}
+
+
+#subtitle {
+  font-family: Poppins;
+  color: #666666;
+  font-size: 17px;
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.nav-links li {
+  display: inline;
+}
+
+
+.nav-links li a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: Poppins;
+  color: var(--nav-link-color);
+}
+
+
+.nav-links li a:hover {
+  transition: all 0.5s ease-in-out;
+  color: rgb(226, 147, 43);
+  text-decoration: underline;
+}
+
+
+.divisor {
+  width: 10%;
+  margin: 40px auto;
+}
+
+
+.content {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.titles-main {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+
+.text {
+  font-family: Poppins;
+  font-size: 17px;
+  margin: 30px auto;
+}
+
+
+.text a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+}
+
+
+.text a:hover {
+  transition: all 0.5s ease-in-out;
+  color: rgb(226, 147, 43);
+  text-decoration: underline;
+}
+
+
+li.book {
+  margin: 20px auto;
+}
+
+
+.end {
+  margin: 20px auto;
+}
+
