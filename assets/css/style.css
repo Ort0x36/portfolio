@@ -160,10 +160,11 @@ li.book {
 
 div.assign {
   margin: 40px auto;
+  font-family: Poppins;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .container {
     width: 100%;
   }
