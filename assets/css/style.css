@@ -19,7 +19,7 @@
 /* Configurações do corpo da página. */
 body {
   background: var(--main-bg-color);
-  width: 930px;
+  max-width: 930px;
   margin: 20px auto;
   min-width: 320px;
   min-height: 40vh;
@@ -145,7 +145,26 @@ li.book {
 }
 
 
-.end {
-  margin: 20px auto;
+#footer-link {
+  text-decoration: none;
+  color: var(--nav-link-color)
 }
 
+
+#footer-link:hover {
+  text-decoration: underline;
+  transition: all 0.5s ease-in-out;
+  color: rgb(226, 147, 43);
+}
+
+
+div.assign {
+  margin: 40px auto;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
