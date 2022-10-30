@@ -164,8 +164,12 @@ div.assign {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
-    width: 100%;
+    max-width: 100%;
+  }
+
+  .box-inside {
+    max-width: 100%;
   }
 }
