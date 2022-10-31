@@ -49,6 +49,13 @@ main.container {
 img[src="assets/img/reddit.png"] {
   width: 30%;
   border-radius: 50%;
+  cursor: pointer;
+  transition: ease 1s;
+}
+
+
+img[src="assets/img/reddit.png"]:hover {
+  transform: scale(1.10);
 }
 
 
@@ -62,6 +69,7 @@ img[src="assets/img/reddit.png"] {
 #title {
   font-family: Poppins;
   font-size: 50px;
+  text-shadow: 5px 5px 8px rgb(180, 180, 180);
 }
 
 
