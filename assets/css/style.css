@@ -49,13 +49,6 @@ main.container {
 img[src="assets/img/reddit.png"] {
   width: 30%;
   border-radius: 50%;
-  cursor: pointer;
-  transition: ease 1s;
-}
-
-
-img[src="assets/img/reddit.png"]:hover {
-  transform: scale(1.10);
 }
 
 
