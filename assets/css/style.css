@@ -28,6 +28,7 @@ body {
 
 main.container {
   width: 100%;
+  animation: fadeIn 1.6s linear;
 }
 
 
@@ -165,6 +166,11 @@ div.assign {
 }
 
 
+div.end {
+  animation: fadeIn 2s linear;
+}
+
+
 @media (max-width: 600px) {
   .container {
     max-width: 100%;
@@ -173,4 +179,21 @@ div.assign {
   .box-inside {
     max-width: 100%;
   }
+}
+
+
+/* Animações da logo. */
+@keyframes logoAnimacao {
+  from {
+      top:-15px;
+  }
+  to {
+      top: 25px;
+  }
+}
+
+
+.logo {
+  position: relative;
+  animation: logoAnimacao 1.6s infinite alternate-reverse linear;
 }
