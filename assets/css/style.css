@@ -16,6 +16,11 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* Configurações do corpo da página. */
 body {
   background: var(--main-bg-color);
@@ -33,14 +38,15 @@ body::-webkit-scrollbar {
 
 
 body::-webkit-scrollbar-track {
-  background: #000000;      
+  background: #000000;
 }
 
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ffffff;  
+  background: linear-gradient(to bottom, var(--nav-link-color), #ffb048);  
   border-radius: 20px;     
-  border: 2px solid var(--nav-link-color);  
+  border: 3px solid var(--main-bg-color);
+  backdrop-filter: blur(10px);  
 }
 
 
@@ -115,8 +121,9 @@ img[src="assets/img/reddit.png"] {
 
 .nav-links li a:hover {
   transition: all 0.5s ease-in-out;
-  color: rgb(226, 147, 43);
+  color: #e2932b;
   text-decoration: underline;
+  font-weight: 500;
 }
 
 
@@ -155,7 +162,7 @@ img[src="assets/img/reddit.png"] {
 
 .text a:hover {
   transition: all 0.5s ease-in-out;
-  color: rgb(226, 147, 43);
+  color: #e2932b;
   text-decoration: underline;
 }
 
@@ -174,7 +181,32 @@ li.book {
 #footer-link:hover {
   text-decoration: underline;
   transition: all 0.5s ease-in-out;
-  color: rgb(226, 147, 43);
+  color: #e2932b;
+}
+
+
+div.icons-links {
+  display: flex;
+  justify-content: center;
+}
+
+
+div.github, .linkedin, .twitter {
+  font-size: 25px;
+  padding: 10px;
+}
+
+
+i.fa-github, .fa-linkedin, .fa-square-twitter {
+  color: #000;
+  transition: all 0.7s ease-in-out;
+}
+
+
+i.fa-github:hover, .fa-linkedin:hover, .fa-square-twitter:hover {
+  color: #e2932b;
+  transform: rotate(-360deg);
+  animation: fadeIn 1s linear;
 }
 
 
@@ -185,7 +217,7 @@ div.assign {
 
 
 div.end {
-  animation: fadeIn 2s linear;
+  animation: fadeIn 1.6s linear;
 }
 
 
