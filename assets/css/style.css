@@ -26,6 +26,24 @@ body {
 }
 
 
+/* Estilizando barra de scroll da página. */
+body::-webkit-scrollbar {
+  width: 12px;              
+}
+
+
+body::-webkit-scrollbar-track {
+  background: #000000;      
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff;  
+  border-radius: 20px;     
+  border: 2px solid var(--nav-link-color);  
+}
+
+
 main.container {
   width: 100%;
   animation: fadeIn 1.6s linear;
