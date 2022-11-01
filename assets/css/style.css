@@ -191,19 +191,28 @@ div.icons-links {
 }
 
 
-div.github, .linkedin, .twitter {
+div.github, 
+.linkedin, 
+.twitter, 
+.fa-reddit {
   font-size: 25px;
   padding: 10px;
 }
 
 
-i.fa-github, .fa-linkedin, .fa-square-twitter {
+i.fa-github, 
+.fa-linkedin, 
+.fa-square-twitter, 
+.fa-reddit {
   color: #000;
   transition: all 0.7s ease-in-out;
 }
 
 
-i.fa-github:hover, .fa-linkedin:hover, .fa-square-twitter:hover {
+i.fa-github:hover, 
+.fa-linkedin:hover, 
+.fa-square-twitter:hover, 
+.fa-reddit:hover {
   color: #e2932b;
   transform: rotate(-360deg);
   animation: fadeIn 1s linear;
