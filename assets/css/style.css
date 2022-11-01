@@ -86,7 +86,7 @@ img[src="assets/img/reddit.png"] {
 
 #title {
   font-family: Poppins;
-  font-size: 50px;
+  font-size: 45px;
   text-shadow: 5px 5px 8px rgb(180, 180, 180);
 }
 
@@ -103,8 +103,8 @@ img[src="assets/img/reddit.png"] {
 
 #title::after{
   content: '|';
-  font-size: 50px;
-  font-weight: 300;
+  font-size: 45px;
+  font-weight: 200;
   margin-left: 5px;
   opacity: 1;
   animation: pisca 2s infinite;
