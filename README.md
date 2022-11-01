@@ -9,7 +9,7 @@
 
 
 <div>
-  <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/Desktop.png" alt="mobile">
+  <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/portfólio.png" alt="mobile">
 </div>
 
 
