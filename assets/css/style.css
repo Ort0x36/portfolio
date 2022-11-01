@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb {
 
 main.container {
   width: 100%;
-  animation: fadeIn 1.6s linear;
+  animation: fadeIn 2s linear;
 }
 
 
@@ -86,7 +86,7 @@ img[src="assets/img/reddit.png"] {
 
 #title {
   font-family: Poppins;
-  font-size: 45px;
+  font-size: 49px;
   text-shadow: 5px 5px 8px rgb(180, 180, 180);
 }
 
@@ -103,7 +103,7 @@ img[src="assets/img/reddit.png"] {
 
 #title::after{
   content: '|';
-  font-size: 45px;
+  font-size: 49px;
   font-weight: 200;
   margin-left: 5px;
   opacity: 1;
@@ -156,7 +156,7 @@ img[src="assets/img/reddit.png"] {
 .content {
   width: 100%;
   margin: auto;
-  margin-top: 84.5px;
+  margin-top: 85px;
 }
 
 
