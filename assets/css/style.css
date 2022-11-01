@@ -91,6 +91,26 @@ img[src="assets/img/reddit.png"] {
 }
 
 
+@keyframes pisca {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
+
+
+#title::after{
+  content: '|';
+  font-size: 50px;
+  font-weight: 300;
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 2s infinite;
+}
+
+
 #subtitle {
   font-family: Poppins;
   color: #666666;
