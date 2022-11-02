@@ -11,7 +11,9 @@
 <div>
   <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/portfólio.png" alt="lightmode_theme">
 </div>
+
 #
+
 <div>
   <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/portfólio_darkmode.png" alt="darkmode_theme">
 </div>
