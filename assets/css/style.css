@@ -36,7 +36,16 @@ body.dark {
   background: rgb(8, 8, 8);
   color: #fff;
   --color-icons: #fff;
-  --text-shadow: 5px 5px 8px rgb(117, 117, 117);
+  --text-shadow: 5px 5px 8px rgb(99, 99, 99);
+}
+
+
+/* Dark Mode config. */
+.darkmode-input {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 30px;
 }
 
 
@@ -83,6 +92,7 @@ body.dark {
 .fa-moon, .fa-sun {
   color: var(--nav-link-color);
 }
+/* Fim do Dark Mode config. */
 
 
 /* Estilizando barra de scroll da página. */
@@ -125,7 +135,7 @@ main.container {
 }
 
 
-img[src="assets/img/SP-Studio.png"] {
+img[src="assets/img/reddit2-removebg.png"] {
   width: 30%;
   border-radius: 50%;
   text-shadow: var(--text-shadow);
