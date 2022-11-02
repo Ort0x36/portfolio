@@ -15,6 +15,7 @@
   --nav-link-color: rgb(173, 98, 27);
   --color-icons: #000;
   --text-shadow: 5px 5px 8px rgb(180, 180, 180);
+  --nav-hover-color: #e2932b;
 }
 
 
@@ -37,6 +38,8 @@ body.dark {
   color: #fff;
   --color-icons: #fff;
   --text-shadow: 5px 5px 8px rgb(99, 99, 99);
+  --nav-link-color: rgb(51, 67, 156);
+  --nav-hover-color: rgb(8, 136, 255);
 }
 
 
@@ -107,7 +110,7 @@ body::-webkit-scrollbar-track {
 
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, var(--nav-link-color), #ffb048);  
+  background: linear-gradient(to bottom, var(--nav-link-color), var(--nav-hover-color));  
   border-radius: 20px;     
   border: 3px solid var(--main-bg-color);
   backdrop-filter: blur(10px);  
@@ -206,7 +209,7 @@ img[src="assets/img/reddit2-removebg.png"] {
 
 .nav-links li a:hover {
   transition: all 0.5s ease-in-out;
-  color: #e2932b;
+  color: var(--nav-hover-color);
   text-decoration: underline;
   font-weight: 500;
 }
@@ -247,7 +250,7 @@ img[src="assets/img/reddit2-removebg.png"] {
 
 .text a:hover {
   transition: all 0.5s ease-in-out;
-  color: #e2932b;
+  color: var(--nav-hover-color);
   text-decoration: underline;
 }
 
@@ -266,7 +269,7 @@ li.book {
 #footer-link:hover {
   text-decoration: underline;
   transition: all 0.5s ease-in-out;
-  color: #e2932b;
+  color: var(--nav-hover-color);
 }
 
 
@@ -298,7 +301,7 @@ i.fa-github:hover,
 .fa-linkedin:hover, 
 .fa-square-twitter:hover, 
 .fa-reddit:hover {
-  color: #e2932b;
+  color: var(--nav-hover-color);
   transform: rotate(-360deg);
   animation: fadeIn 1s linear;
 }
