@@ -9,15 +9,8 @@
 
 
 <div>
-  <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/portfólio.png" alt="lightmode_theme">
+  <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/mockup.png" alt="lightmode_theme">
 </div>
-
-#
-
-<div>
-  <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/portfólio_darkmode.png" alt="darkmode_theme">
-</div>
-
 
 <div style="display: inline_block">
 
