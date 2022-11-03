@@ -99,6 +99,12 @@ body.dark {
 .fa-moon, .fa-sun {
   color: var(--nav-link-color);
 }
+
+
+.fa-moon:hover, .fa-sun:hover {
+  color: var(--nav-hover-color);
+  transition: all 1s ease-in-out;
+}
 /* Fim do Dark Mode config. */
 
 
