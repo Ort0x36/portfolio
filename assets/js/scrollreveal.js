@@ -1,5 +1,5 @@
 window.sr = ScrollReveal({ reset:true});
-ScrollReveal({ distance: '15px' });
+ScrollReveal({ distance: '50px' });
 sr.reveal('.img-box', {duration : 3000, origin: 'right'})
 sr.reveal('.content-head', {duration : 3000, origin: 'left'})
 sr.reveal('.darkmode-input', {duration : 3000, origin: 'left'})

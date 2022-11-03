@@ -313,12 +313,43 @@ div.assign {
 }
 
 
-div.end {
+div.end footer {
   animation: fadeIn 2s linear;
 }
 
 
 @media (max-width: 700px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .box-inside {
+    max-width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 2560px) {
+  body {
+    max-width: 1280px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .box-inside {
+    max-width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 3440px) {
+  body {
+    max-width: 1500px;
+    font-size: 30px;
+  }
+
   .container {
     max-width: 100%;
   }
@@ -344,4 +375,3 @@ div.end {
   position: relative;
   animation: logoAnimacao 1.6s infinite alternate-reverse linear;
 }
-
