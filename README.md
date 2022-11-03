@@ -9,7 +9,7 @@
 
 
 <div>
-  <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/mockup.png" alt="lightmode_theme">
+  <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/mockup.png" alt="lightmode_theme" width="590px" heigth="590px">
 </div>
 
 <!-- #
