@@ -30,6 +30,7 @@ body {
   margin: 20px auto;
   min-width: 320px;
   min-height: 40vh;
+  transition: all 1s ease-in-out;
 }
 
 
@@ -40,6 +41,8 @@ body.dark {
   --text-shadow: 5px 5px 8px rgb(99, 99, 99);
   --nav-link-color: rgb(51, 67, 156);
   --nav-hover-color: rgb(8, 136, 255);
+  transition: background 1s ease 0s;
+  transition: all 1s ease-in-out;
 }
 
 
@@ -84,6 +87,7 @@ body.dark {
   width: 18px;
   transform: translateX(0px);
   transition: transform 0.2s linear;
+  
 }
 
 
