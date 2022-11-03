@@ -12,7 +12,6 @@
   <img src="https://github.com/0ortiz/portfolio/blob/main/assets/img/mockup.png" alt="lightmode_theme">
 </div>
 
-<<<<<<< HEAD
 <!-- #
 
 <div>
@@ -20,9 +19,6 @@
 </div> 
 -->
 
-
-=======
->>>>>>> bee1f7c8a1b3c0475a311fc4d7f7d53f2c4acefc
 <div style="display: inline_block">
 
 
