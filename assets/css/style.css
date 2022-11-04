@@ -26,7 +26,7 @@ html {
 
 /* Configurações do corpo da página. */
 body {
-  max-width: 930px;
+  max-width: 950px;
   margin: 20px auto;
   min-width: 320px;
   min-height: 40vh;
@@ -329,6 +329,18 @@ div.end footer {
 
 
 @media (max-width: 800px) {
+  .container {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .box-inside {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 950px) {
   .container {
     max-width: 100%;
   }
