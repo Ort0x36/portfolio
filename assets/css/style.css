@@ -209,6 +209,7 @@ img[src="assets/img/reddit2-removebg.png"] {
   text-decoration: none;
   font-family: Poppins;
   color: var(--nav-link-color);
+  transition: all 0.7s ease-in-out;
 }
 
 
@@ -250,6 +251,7 @@ img[src="assets/img/reddit2-removebg.png"] {
 .text a {
   text-decoration: none;
   color: var(--nav-link-color);
+  transition: all 0.7s ease-in-out;
 }
 
 
