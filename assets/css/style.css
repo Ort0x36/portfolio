@@ -93,6 +93,7 @@ body.dark {
 
 .fa-moon, .fa-sun {
   color: var(--nav-link-color);
+  transition: all 0.7s ease-in-out;
 }
 
 
