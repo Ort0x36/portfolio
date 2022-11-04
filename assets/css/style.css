@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 
@@ -19,17 +20,11 @@
 }
 
 
-html {
-  scroll-behavior: smooth;
-}
-
-
 /* Configurações do corpo da página. */
 body {
   max-width: 950px;
   margin: 20px auto;
-  min-width: 320px;
-  min-height: 40vh;
+  height: 100%;
   transition: all 1s ease-in-out;
 }
 
