@@ -35,7 +35,7 @@ body {
 
 
 body.dark {
-  background: linear-gradient(to bottom, #06010e, #000005);
+  background: linear-gradient(to bottom, #02030c, #000000);
   color: #fff;
   --color-icons: #fff;
   --text-shadow: 5px 5px 8px rgb(99, 99, 99);
