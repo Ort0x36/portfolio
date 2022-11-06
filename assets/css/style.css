@@ -30,7 +30,7 @@ body {
 
 
 body.dark {
-  background: linear-gradient(to bottom, #02030c, #000000);
+  background-image: url('../img/background_darkmode.svg');
   color: #fff;
   --color-icons: #fff;
   --text-shadow: 5px 5px 8px rgb(99, 99, 99);
@@ -337,7 +337,7 @@ div.end footer {
   }
 
   .to-top {
-    opacity: 0;
+    visibility: none;
   }
 }
 
