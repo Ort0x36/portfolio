@@ -30,7 +30,7 @@ body {
 
 
 body.dark {
-  background-image: url('../img/background_darkmode.svg');
+  background: linear-gradient(to bottom, #02020c, #000);
   color: #fff;
   --color-icons: #fff;
   --text-shadow: 5px 5px 8px rgb(99, 99, 99);
