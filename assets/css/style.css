@@ -337,7 +337,7 @@ div.end footer {
   }
 
   .to-top {
-    visibility: none;
+    display: none;
   }
 }
 
@@ -352,7 +352,7 @@ div.end footer {
   }
 
   .to-top {
-    opacity: 0;
+    display: none;
   }
 }
 
