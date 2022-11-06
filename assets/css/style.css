@@ -336,9 +336,7 @@ div.end footer {
     max-width: 100%;
   }
 
-  .to-top {
-    display: none;
-  }
+
 }
 
 
@@ -351,9 +349,7 @@ div.end footer {
     max-width: 100%;
   }
 
-  .to-top {
-    display: none;
-  }
+  
 }
 
 
@@ -408,10 +404,10 @@ div.end footer {
 .to-top {
   background: var(--nav-link-color);
   position: fixed;
-  bottom: 16px;
-  right:32px;
-  width:50px;
-  height:50px;
+  bottom: 20px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -419,7 +415,6 @@ div.end footer {
   font-size:32px;
   color:#ffffff;
   text-decoration: none;
-  pointer-events: auto;
   transition: all 0.7s ease-in-out;
 }
 
