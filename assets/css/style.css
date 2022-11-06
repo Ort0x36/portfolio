@@ -336,11 +336,15 @@ div.end footer {
     max-width: 100%;
   }
 
-
+  .to-top {
+    display: none;
+    visibility: none;
+    opacity: 0;
+  }
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 950px), (max-width: 1024px) {
   .container {
     max-width: 100%;
   }
@@ -349,7 +353,11 @@ div.end footer {
     max-width: 100%;
   }
 
-  
+  .to-top {
+    display: none;
+    visibility: none;
+    opacity: 0;
+  }
 }
 
 
@@ -422,4 +430,3 @@ div.end footer {
 .to-top:hover {
   background: var(--nav-hover-color);
 }
-
