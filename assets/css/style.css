@@ -428,5 +428,6 @@ div.end footer {
 
 
 .to-top:hover {
-  background: var(--nav-hover-color);
+  background: var(--nav-hover-color);  
 }
+
