@@ -341,6 +341,9 @@ div.end footer {
     visibility: none;
     opacity: 0;
   }
+  .list-responsive {
+    list-style-type: none;
+  }
 }
 
 
@@ -430,4 +433,5 @@ div.end footer {
 .to-top:hover {
   background: var(--nav-hover-color);  
 }
+
 
