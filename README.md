@@ -37,7 +37,7 @@
   <table>
     <tr>
       <td align="center">
-        <a href="https://github.com/0ortiz">
+        <a href="https://github.com/Ort0x36">
           <img src="https://avatars.githubusercontent.com/u/98562355?v=4" width="100px;" alt="Picture"/><br>
           <sub>
             <b>0ortiz</b>
