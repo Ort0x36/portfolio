@@ -459,7 +459,7 @@ div.end footer {
 
 .tasks li {
   margin: 5px 0;
-  font-size: 15px;
+  font-size: 17px;
   /* color: #333; */
 }
 
@@ -473,4 +473,37 @@ div.end footer {
   transition: all 0.5s ease-in-out;
   color: var(--nav-hover-color);
   text-decoration: underline;
+}
+
+
+.testimonial {
+  max-width: 800px;
+  font-family: Poppins;
+  margin: 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.testimonial.active {
+  display: block;
+}
+
+.testimonial p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.testimonial h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.testimonial span {
+  font-size: 14px;
+  color: #777;
 }
